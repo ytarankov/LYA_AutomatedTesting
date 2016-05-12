@@ -1,8 +1,13 @@
+/*@author ytarankov
+ * for testing LoveYourArtist
+ **/
+
 package com.tests;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -18,6 +23,7 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
@@ -313,15 +319,7 @@ public class Test_smoke {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click();", driver.findElement(By.id(idName)));
 	}  
-        
-	private void clickUsingExecutor(Actions builder, WebElement elem) throws InterruptedException {
-		waitForElementPresence(By.xpath(xpath));
-		builder.moveToElement(elem).build().perform();
-		JavascriptExecutor executor = (JavascriptExecutor) driver;
-        executor.executeScript("arguments[0].click();", elem);
-      }     
-        
-         
+             
     private List<WebElement> getDisplayedPcsList(String xpath){
     	List<WebElement> pcsList = driver.findElements(By.xpath(xpath));
     	WebElement ele = null;
