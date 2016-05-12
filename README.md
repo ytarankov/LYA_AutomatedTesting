@@ -23,5 +23,7 @@ Create an automated tests script - walkthrough that makes sure that there are:
 
 ## Additional details
 The automated project uses java.util.logging library for logging and takes a screenshot for last step of test execution automatically.
+
 Due to the given implementation of DOM model (for some site pages) the test script uses javascript executor for forced clicking on controls.
-Result of test execution consissts of two parts: first part - for the 1 task point and second part - for the 2 - 4 points.
+
+Result of test execution consists of two parts: first part - for the 1 task point and second part - for the 2 - 4 points.
