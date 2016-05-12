@@ -16,6 +16,7 @@ Create an automated tests script - walkthrough that makes sure that there are:
 - JDK 1.8 64 bit;
 - Selenium WebDriver;
 - JUnit 4 as test framework;
+- Firefox browser should be installed;
 
 ## Developer environment
 - Eclipse IDE;
