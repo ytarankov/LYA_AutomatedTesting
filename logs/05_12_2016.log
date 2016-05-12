@@ -1,0 +1,96 @@
+May 12, 2016 4:45:35 PM com.tests.Test_smoke setUp
+INFO: loaded from properties - baseUrl: https://love-your-artist.com
+May 12, 2016 4:45:35 PM com.tests.Test_smoke setUp
+INFO: loaded from properties - browserType: Firefox
+May 12, 2016 4:45:47 PM com.tests.Test_smoke setUp
+INFO: SetUp method for class com.tests.Test_smoke is completed...
+May 12, 2016 4:45:47 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//*[@id='artists-mix-filter']/span[text()='Alle']
+May 12, 2016 4:45:47 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//div[@class='mask']
+May 12, 2016 4:45:47 PM com.tests.Test_smoke test_execution_1
+INFO: there 38 displayed images have been found in the grid.
+May 12, 2016 4:45:53 PM com.tests.Test_smoke setUp
+INFO: loaded from properties - baseUrl: https://love-your-artist.com
+May 12, 2016 4:45:53 PM com.tests.Test_smoke setUp
+INFO: loaded from properties - browserType: Firefox
+May 12, 2016 4:46:05 PM com.tests.Test_smoke setUp
+INFO: SetUp method for class com.tests.Test_smoke is completed...
+May 12, 2016 4:46:05 PM com.tests.Test_smoke waitAnElement_andClick
+INFO: after waitAnElement_andClick method with locator: By.xpath: .//div[child::span[text()='Language']]
+May 12, 2016 4:46:05 PM com.tests.Test_smoke waitAnElement_andClick
+INFO: after waitAnElement_andClick method with locator: By.xpath: //a[contains(@href,'https://love-your-artist.com/en/')]
+May 12, 2016 4:46:09 PM com.tests.Test_smoke waitAnElement_andClick
+INFO: after waitAnElement_andClick method with locator: By.xpath: //span[@class='filter'][text()='Festivals']
+May 12, 2016 4:46:09 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//div[@id='main']//div[contains(@style,'display: inline-block;')]/a[@href]
+May 12, 2016 4:46:17 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //div[@class='cart-btn']//input
+May 12, 2016 4:46:18 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //div[@class='single_product_in_list row']//input[@class='ccm-core-commerce-cart-buttons-checkout'][@value='Bestellung aufgeben']
+May 12, 2016 4:46:22 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.id: submit_next
+May 12, 2016 4:46:24 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //label[text()='Vorname']//following-sibling::input
+May 12, 2016 4:46:26 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //label[contains(text(),'Ich habe die Allgemeinen ')]//following-sibling::div/label[child::input]
+May 12, 2016 4:46:27 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.id: submit_next
+May 12, 2016 4:46:35 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//div[child::span[contains(text(),'zzgl. versicherter Versand nach Deutschland.')]]/span[contains(text(),'4,99')]
+May 12, 2016 4:46:35 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: .//div[child::span[contains(text(),'zzgl. versicherter Versand nach Deutschland.')]]/span[contains(text(),'4,99')] is found...
+May 12, 2016 4:46:35 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//input[@name='submit_previous']
+May 12, 2016 4:46:38 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //a[@id='warenkorb_link']
+May 12, 2016 4:46:39 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //div[@id='warenkorbModal']//span[contains(@class,'-commerce-cart-remove update-cart')]/a
+May 12, 2016 4:46:40 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //h1[text()='Ihr Warenkorb ist leer']
+May 12, 2016 4:46:40 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: //h1[text()='Ihr Warenkorb ist leer'] is found...
+May 12, 2016 4:46:40 PM com.tests.Test_smoke waitAnElement_andClick
+INFO: after waitAnElement_andClick method with locator: By.xpath: //div[@id='header']//descendant::div[contains(@class,'-commerce-cart-buttons')][1]/input
+May 12, 2016 4:46:40 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //span[contains(@class,'-commerce-cart-remove update-cart')]/a
+May 12, 2016 4:46:43 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: //h1[text()='Ihr Warenkorb ist leer'] is found...
+May 12, 2016 4:46:43 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //div[@id='content']//descendant::div[contains(@class,'-commerce-cart-buttons')][1]/input
+May 12, 2016 4:46:46 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//div[child::span[text()='Language']]
+May 12, 2016 4:46:47 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //a[contains(@href,'https://love-your-artist.com/index.php/en/') and not(contains(@class,'-multilingual-'))]
+May 12, 2016 4:46:50 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //span[@class='filter'][text()='Festivals']
+May 12, 2016 4:46:51 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: .//div[@id='main']//div[contains(@style,'display: inline-block;')]/a[contains(@href,'/de/maifeld-derby/')]
+May 12, 2016 4:46:52 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //descendant::div[@class='about-product'][1]//span[text()='TICKETS KAUFEN']
+May 12, 2016 4:46:53 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //a[@class='buythis']
+May 12, 2016 4:46:55 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //button[text()='Direkt zum Checkout']
+May 12, 2016 4:47:06 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //label[text()='Vorname']//following-sibling::input
+May 12, 2016 4:47:07 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.id: submit_next
+May 12, 2016 4:47:13 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //img[@class='payment_logo']
+May 12, 2016 4:47:14 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //label[child::img[@class='payment_logo']]
+May 12, 2016 4:47:14 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: .//div[child::span[contains(text(),'zzgl. versicherter Versand nach Deutschland.')]]/span[contains(text(),'4,99')] is not found...
+May 12, 2016 4:47:14 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: //*[contains(text(),'Shipping')] is not found...
+May 12, 2016 4:47:14 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.id: submit_next
+May 12, 2016 4:47:14 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.id: submit_next
+May 12, 2016 4:47:18 PM com.tests.Test_smoke waitForElementPresence
+INFO: after waitForElementPresence method with locator: By.xpath: //p[contains(text(),'Danke ')][contains(text(),'Ihren Einkauf')]
+May 12, 2016 4:47:18 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: .//div[child::span[contains(text(),'zzgl. versicherter Versand nach Deutschland.')]]/span[contains(text(),'4,99')] is not found...
+May 12, 2016 4:47:18 PM com.tests.Test_smoke isElementPresent
+INFO: element with locator: By.xpath: //*[contains(text(),'Shipping')] is not found...
