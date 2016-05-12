@@ -1,4 +1,4 @@
-# LYA_AutomatedTesting
+# LYA_AutomatedTesting project was created for automated testing the given site during the testing task execution.
 
 # Task description
 Create an automated tests script - walkthrough that makes sure that there are 
