@@ -1,6 +1,7 @@
-# LYA_AutomatedTesting project was created for automated testing the given site during the testing task execution.
+# LYA_AutomatedTesting project 
+was created for automated testing the given site during the testing task execution.
 
-# Task description
+## Task description
 Create an automated tests script - walkthrough that makes sure that there are:
 
 1) a minimum of 10 artists on the starting page
@@ -11,14 +12,14 @@ Create an automated tests script - walkthrough that makes sure that there are:
 
 4) go back, buy additional tickets, delete everything without tickets and verify that now there is no shipping step needed.
 
-# Used tools
+## Used tools
 - JDK 1.8 64 bit;
 - Selenium WebDriver;
 - JUnit 4 as test framework;
 
-# Developer environment
+## Developer environment
 - Eclipse IDE;
 - Ant.
 
-# Additional details
+## Additional details
 The automated project uses java.util.logging library for logging and takes a screenshot for last step of test execution automatically.
