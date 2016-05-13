@@ -28,7 +28,7 @@ The automated project uses java.util.logging library for logging and takes a scr
 Due to the given implementation of DOM model (for some site pages) the test script uses javascript executor for forced clicking on some controls. Also ther are a several usability bugs/improvements should be resolved from the site developer's side for best results of automated test execution (see references in the test code).
 
 Result of test execution consists of two parts: first part - for the 1 task point and second part - for the 2 - 4 points.
-Video record with test execution here: https://github.com/ytarankov/LYA_AutomatedTesting/blob/master/Test_smoke_execution_20160512_lq.zip  - file was uploaded with low quality due to the set limit of github file size.
+Video record with test execution here: https://github.com/ytarankov/LYA_AutomatedTesting/blob/master/Test_smoke_execution_20160512_lq.zip  - file was uploaded with low quality due to the set limit by github for uploaded file size.
 
 ## TODO
 Some methods and the structure of test - to be refactored. 
