@@ -27,7 +27,7 @@ The automated project uses java.util.logging library for logging and takes a scr
 
 Due to the given implementation of DOM model (for some site pages) the test script uses javascript executor for forced clicking on some controls. Also ther are a several usability bugs/improvements should be resolved from the site developer's side for best results of automated test execution (see references in the test code).
 
-Result of test execution consists of two parts: first part - for the 1 task point and second part - for the 2 - 4 points.
+Result of test execution consists of two parts (two tests are combined into the one, Test_smoke.java): first part - for the 1 task point and second part - for the 2 - 4 task points.
 
 Video record with test execution here: https://drive.google.com/file/d/0B2KqvNc0utcybl80Mmlkano3cEE/view?usp=sharing
 
